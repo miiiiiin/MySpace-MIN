@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Desktop from './components/desktop/Desktop';
-import DesktopIcon from './components/desktop/DesktopIcon';
-import Window from './components/desktop/Window';
+import Desktop from './components/Desktop/Desktop';
+import DesktopIcon from './components/Desktop/DesktopIcon';
+import Window from './components/Desktop/Window';
+
 
 function App() {
   const [windows, setWindows] = useState([
